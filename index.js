@@ -1,2 +1,7 @@
-/* This is a file inserted to keep the learn IDE browser happy */
-const testVar = {}
+// Write your code here!
+document.getElementById(`main`).remove();
+
+let newHeader = document.createElement(`h1`)
+document.body.appendChild(newHeader)
+newHeader.setAttribute("id", "victory")
+newHeader.innerHTML=`Timothy is the champion`;
